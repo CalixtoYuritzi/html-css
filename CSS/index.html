@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Ligar a un archivo css, BUENA PRACTICA-->
+    <link rel="stylesheet" href="./style.css">
+    <!--(MALA PRACTICA)-->
+    <style>
+        p{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <!--Estilo embeber, (MALA PRACTICA)-->
+            <p class="parrafo" style="color: cadetblue;" >Hi! Soy un texto bonito de color</p>
+            <!--p.parrafo-->
+            <p class="parrafo" >Un texto bonito de color</p>
+            <!--p#texto-->
+            <p id="texto"> Soy otro texto</p>
+        </section>
+    </main>
+</body>
+</html>
